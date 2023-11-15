@@ -9,5 +9,5 @@
   [1212343433335665,1200.00],
   [3212343433335755,50000.00]
 ].each do |account_number, balance|
-  Account.find_or_create_by!(account_number:, balance:)
+  Account.find_or_create_by(account_number:, balance:)
 end

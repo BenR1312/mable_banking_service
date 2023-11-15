@@ -2,8 +2,9 @@
 
 ## Description
 
-This is a simple banking service that allows the processing of transactions between accounts.
+This is a simple banking api service that allows the processing of transactions between accounts.
 Only processing Transactions via a csv file being passed to the API will be allowed, any other actions will not be supported such as creating new accounts.
+No UI exists for this application, if a UI is desired please reach out and i will happily make some changes to support a ui.
 
 ## Requirements
 
@@ -27,7 +28,10 @@ To run the application please run:
 rails s
 ```
 
-For api documentation please use the postman collection here
+For api documentation please use the postman collection [here](https://github.com/BenR1312/mable_banking_service/blob/main/api_documentation_postman_collection.json)
+Please use the [mable_trans.csv](https://github.com/BenR1312/mable_banking_service/blob/main/mable_trans.csv) file in the root of the project to test the api.
+
+You can use the [csv file](https://github.com/BenR1312/mable_banking_service/blob/main/mable_trans.csv)
 
 ## Running Tests
 
