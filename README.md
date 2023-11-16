@@ -2,12 +2,12 @@
 
 ## Description
 
-This is a simple banking api service that allows the processing of transactions between accounts.
-Only processing Transactions via a csv file being passed to the API will be allowed, any other actions will not be supported such as creating new accounts.
-No UI exists for this application, if a UI is desired please reach out and i will happily make some changes to support a ui.
+This is a simple banking api service that allows the processing of transactions between accounts.  
+Only processing Transactions via a csv file being passed to the API will be allowed, any other actions will not be supported such as creating new accounts.  
+No UI exists for this application, if a UI is desired please reach out and i will happily make some changes to support a ui.  
 
-The api response will include relevant lines that have issues on them that need to be resolved, this response could easily be used to display to a user what lines need to be fixed and re-submitted, all other lines will have been processed successfully.
-Otherwise you will see a happy response.
+The api response will include relevant lines that have issues on them that need to be resolved, this response could easily be used to display to a user what lines need to be fixed and re-submitted, all other lines will have been processed successfully.  
+Otherwise you will see a happy response.  
 Api response format follows [json api spec](https://jsonapi.org/) standards.
 
 example response with errors:
